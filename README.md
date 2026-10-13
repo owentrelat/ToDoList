@@ -11,7 +11,7 @@ npm run dev
 
 ## Déploiement GitHub Pages
 
-Le workflow `.github/workflows/deploy.yml` construit l’application et la publie sur GitHub Pages à chaque mise à jour de `main`. Le dépôt doit utiliser **GitHub Actions** comme source de déploiement dans **Settings → Pages**.
+Le workflow `.github/workflows/deploy.yml` construit l’application et la publie sur GitHub Pages à chaque mise à jour de `main`. Pour le premier déploiement, active GitHub Pages dans **Settings → Pages → Build and deployment → Source → GitHub Actions**.
 
 Après le premier déploiement, l’application sera disponible à l’adresse :
 
